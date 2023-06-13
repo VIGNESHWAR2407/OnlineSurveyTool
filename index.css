@@ -1,0 +1,91 @@
+body {
+ /* background-image: linear-gradient(to right,white,red,white,blue,white);
+ background-repeat: no-repeat;
+ background-size: cover; 
+ */
+ background-color: aqua;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: center;
+}
+a
+{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: larger;
+
+}
+.main
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+  border-color: black;
+  height: 100%;
+  width: 100%;
+  padding: auto;
+}
+.tech
+{
+  display: grid;
+  border-radius: 10px;
+  background-image: url(tech.jpg);
+  background-repeat: no-repeat;
+ background-size: cover; 
+  border-color: black;
+  height: 200px;
+  width: 750px;
+  padding: 20px 0;
+  font-size: 30px;
+  margin-bottom: 10px;
+align-content: center;
+}
+
+.revenue
+{
+  display: grid;
+  border-radius: 10px;
+  background-image: url(revenue.jpg);
+  background-repeat: no-repeat;
+ background-size: cover; 
+  border-color: black;
+  height: 200px;
+  width: 750px;
+  padding: 20px 0;
+  font-size: 30px;
+  margin-bottom: 10px;
+  align-content: center;
+
+}
+.sports
+{
+  display: grid;
+  border-radius: 10px;
+  background-image: url(sports.jpg);  
+  background-repeat: no-repeat;
+ background-size: cover; 
+  border-color: black;
+  height: 200px;
+  width: 750px;
+  padding: 20px 0;
+  font-size: 30px;
+  margin-bottom: 10px;
+  align-content: center;
+
+}
+.culture
+{
+  display: grid;
+  border-radius: 10px;
+ background-image: url(culture.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;  
+ border-color: black;
+  height: 200px;
+  width: 750px;
+  padding: 20px 0;
+  font-size: 30px;
+  margin-bottom: 10px;
+  align-content: center;
+
+}
